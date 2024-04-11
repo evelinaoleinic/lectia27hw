@@ -1,0 +1,20 @@
+#div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    grid-column-gap: 10px;
+
+}
+
+.done-icon{
+    width:15px;
+    height:15px;
+}
+.completed{
+    text-decoration: line-through;
+}
+.item{
+border: 0.5px solid grey;
+}
+.list{
+    border: 1px solid grey;
+}
